@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    &:hover{
+        color: blue;
+    }
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    &:hover{
+        color: royalblue;
+    }
+}
+/* imports */
+@import '../scss/base/links';
+@import '../scss/base/listas';
+@import '../scss/base/footer';
+@import '../scss/base/donations';
+@import '../scss/base/quienesSomosText';

@@ -1,0 +1,24 @@
+@media only screen and (max-width:450px){
+/* extend */
+%font-bordes{
+    font-family: "Roboto", sans-serif;
+    border-top: groove 5px gray;
+    border-right: groove 5px gray;
+    border-bottom: groove 5px gray;
+    border-left: groove 5px gray;
+}
+    .quienes-somos-text{
+        @extend %font-bordes;
+        padding: 10% 10% 10% 10%;
+    }
+}
+@media only screen and (min-width:451px){
+    .quienes-somos-text{
+        font-family: "Roboto", sans-serif;
+        border-top: groove 5px gray;
+        border-right: groove 5px gray;
+        border-bottom: groove 5px gray;
+        border-left: groove 5px gray;
+        padding: 25% 25% 25% 25%;
+    }
+}

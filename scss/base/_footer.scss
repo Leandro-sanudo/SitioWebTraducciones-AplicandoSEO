@@ -1,0 +1,23 @@
+/* mixin */
+@mixin button ($display, $ancho){
+    display: $display;
+    width: $ancho;
+}
+.end{
+    background-color: rgb(226, 234, 233);
+}
+.button{
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+    padding: 2px 2px 2px 2px;
+    @include button(display, block);
+    font-family: "Roboto", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    @include button(ancho, 50%);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}

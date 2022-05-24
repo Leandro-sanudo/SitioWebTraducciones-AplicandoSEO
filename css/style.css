@@ -26,29 +26,48 @@ ul {
   font-family: "Times New Roman", Times, serif;
 }
 
-/* mixin */
-.end {
-  background-color: rgb(226, 234, 233);
-}
+@media only screen and (min-width: 451px) {
+  .end {
+    background-color: rgb(226, 234, 233);
+  }
 
-.button {
-  border-top: solid 2px black;
-  border-right: solid 2px black;
-  border-bottom: solid 2px black;
-  border-left: solid 2px black;
-  padding: 2px 2px 2px 2px;
-  display: display;
-  width: block;
-  font-family: "Roboto", sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-  display: ancho;
-  width: 50%;
-  text-align: center;
-  margin-top: 15px;
-  margin-bottom: 0px;
+  .button {
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+    padding: 2px 2px 2px 2px;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
 }
+@media only screen and (max-width: 450px) {
+  .end {
+    background-color: rgb(226, 234, 233);
+  }
 
+  .button {
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+    border-bottom: solid 2px black;
+    border-left: solid 2px black;
+    padding: 2px 2px 2px 2px;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+}
 /* Mapa para donations */
 @media only screen and (max-width: 450px) {
   .donations {
